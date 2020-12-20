@@ -37,12 +37,12 @@
        
         <!-- Project Section-->
 		<section class="page-section portfolio" id="portfolio">
-			<div class="modal-body text-center">
-				<!--<div class="container">-->
+			<div class="modal-body">
+				<div class="container">
 					<div class="justify-content-center">
 						<!--<div class="col-lg-8">-->
 							<!-- Project Title-->
-							<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Washed Away</h2>
+							<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center" id="portfolioModal6Label">Washed Away</h2>
 							<!-- Icon Divider-->
 							<div class="divider-custom">
 								<div class="divider-custom-line"></div>
@@ -50,16 +50,40 @@
 								<div class="divider-custom-line"></div>
 							</div>
 							<!-- Portfolio Modal - Image-->
-							<img class="img-fluid rounded mb-5" src="../assets/img/portfolio/submarine.png" alt="" />
-							<!-- Project Description-->
-							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+							<p>This demo is my final project for the Master's Degree in Computer Graphics, Games and Virtual Reality and was done in collaboration with <a href="https://crisosie.github.io/">Cristian Soler Sierra</a>.</p>
+							<p>Washed Away is a walking simulator in which we wanted to simulate Asian ink paintings using shaders. Also, it's possible to change between day and night with an expansive wave effect. This mechanic allows the player to interact with the scenario and solve some puzzles and challenges that will make the game advance.</p>
 							<br>
+							<div class="text-center">
+								<img class="img-fluid rounded mb-5 text-center" src="../assets/img/portfolio/washedaway/cambio_dianoche.png" alt="" />
+								<img class="img-fluid rounded mb-5 text-center" src="../assets/img/portfolio/washedaway/santuario_noche.png" alt="" />
+							</div>
+							<!-- Project Description-->
+							
+							<p>In this project my main task were the transition between the day scene and the night scene. This functionality was divided in two parts: the actual translation of the player from one scene to another, and the smooth transition in wich both scenes are combined.</p>
+							
+							<p>The traslation of the player was made in Unity using triggers and the transform elements of the gameobjects.</p>
+														
+							<div class="text-center">
+								<img class="img-fluid rounded mb-5 text-center" src="../assets/img/portfolio/washedaway/cambio_dia_noche_unity_recorte.gif" alt="" />
+							</div>
+							
+							<p>With regard to the visual effect, it was made using two cameras and a postprocessing shader. Each camera rendered to a render texture, and the shader combined both images using the depth buffer.</p>
+														
+							<!--<p>Download and play it from <a href="https://pizanagd.itch.io/ecorruption">https://pizanagd.itch.io/ecorruption</a>.</p>-->
+
+							<div class="text-center">
+								<img class="img-fluid rounded mb-5 text-center" src="../assets/img/portfolio/washedaway/cambio_dia_noche_largo_recorte.gif" alt="" />
+								
+							</div>
+							
+							<div class="text-center">
 							<a class="btn btn-primary" href="../index.html">
 								Back
 							</a>
+							</div>
 						<!--</div>-->
 					</div>
-				<!--</div>-->
+				</div>
 			</div>
 		</section>
 
